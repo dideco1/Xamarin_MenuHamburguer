@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_MenuHamburguer.Views.ComponentesPrimeiro"
+             BackgroundColor="#f3f2f0">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+
+                <Button Text="Banco de Dados I" Clicked="banco_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Análise e Projeto de Sistemas" Clicked="analise_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Design Digital" Clicked="design_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Programação Web I" Clicked="web_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Fundamentos da Informática" Clicked="fundamentos_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Técnicas de Programação e Algoritmo" Clicked="tecnicas_clicked" Style="{StaticResource botaoCinza}"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
