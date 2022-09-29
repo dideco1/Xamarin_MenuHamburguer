@@ -13,6 +13,18 @@
                 <Button Text="Programação Web I" Clicked="web_clicked" Style="{StaticResource botaoCinza}"/>
                 <Button Text="Fundamentos da Informática" Clicked="fundamentos_clicked" Style="{StaticResource botaoCinza}"/>
                 <Button Text="Técnicas de Programação e Algoritmo" Clicked="tecnicas_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Português" Clicked="port_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Inglês" Clicked="ingles_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Geografia" Clicked="geo_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Matemática" Clicked="mat_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Biologia" Clicked="bio_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Química" Clicked="quimica_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="História" Clicked="hist_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Física" Clicked="fisica_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Filosofia" Clicked="filoso_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Sociologia" Clicked="socio_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Artes" Clicked="artes_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Educação Física" Clicked="educacao_clicked" Style="{StaticResource botaoCinza}"/>
 
             </StackLayout>
         </ScrollView>

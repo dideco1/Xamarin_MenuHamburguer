@@ -6,12 +6,12 @@ namespace Xamarin_MenuHamburguer.Models
 {
     public class componente
     {
-        public string nome { get; set; }
-        public int cargaHoraria { get; set; }
-        public string atribuicoesResponsabilidades { get; set; }
-        public string valoresAtitudes {get; set; }
-        public string competencias { get; set; }
-        public string habilidades { get; set; }
-        public string basesTecnologicas { get; set; }
+        public string Nome { get; set; }
+        public int CargaHoraria { get; set; }
+        public string AtribuicoesResponsabilidades { get; set; }
+        public string ValoresAtitudes {get; set; }
+        public string Competencias { get; set; }
+        public string Habilidades { get; set; }
+        public string BasesTecnologicas { get; set; }
     }
 }
