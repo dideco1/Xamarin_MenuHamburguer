@@ -26,10 +26,13 @@ namespace Xamarin_MenuHamburguer.Views
                 {
                     Nome = "Banco de Dados I",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Modelar banco de dados",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Promover ações que considerem o respeito às normas estabelecidas\n" +
+                    "~ Estimular a organização\n" +
+                    "~ Estimular o interesse na resolução de situações-problema"
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch(Exception ex)
@@ -45,12 +48,15 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "Análise e Projeto de Sistemas",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Elaborar projetos de sistema de informação",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Incentivar a criatividade\n" +
+                    "~ Estimular a organização\n" +
+                    "~ Estimular o interesse na resolução de situações-problema"
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -66,12 +72,15 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "Design Digital",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Desenvolver elementos gráficos para aplicativos e sites",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~Incentivar a criatividade\n" +
+                    "~ Estimular a organização\n" +
+                    "~ Estimular o interesse na resolução de situações-problema"
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -87,12 +96,15 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "Programação Web I",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Desenvolver sites para a Web",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Incentivar a criatividade\n" +
+                    "~ Estimular a organização\n" +
+                    "~ Estimular o interesse na resolução de situações-problema"
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -107,12 +119,15 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "Fundamentos da Informática",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Operar sistemas computacionais",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Desenvolver a criticidade\n" +
+                    "~ Incentivar comportamentos éticos\n" +
+                    "~ Promover ações que considerem o respeito às normas estabelecidas"
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -144,7 +159,7 @@ namespace Xamarin_MenuHamburguer.Views
             }
 
         }
-        private async void port_clicked(object sender, EventArgs e)
+        private async void Port_clicked(object sender, EventArgs e)
         {
             try
             {
@@ -159,6 +174,7 @@ namespace Xamarin_MenuHamburguer.Views
                     "~ Estimular o interesse na resolução de situações-problema \n" +
                     "~ Responsabilizar-se pela produção, realização e divulgação de informações"
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -178,8 +194,11 @@ namespace Xamarin_MenuHamburguer.Views
                     AtribuicoesResponsabilidades = "Comunicar-se em língua estrangeira utilizando o vocabulário e a terminologia" +
                     "técnico-cientifica da área",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Incentivar ações que promovam a cooperação\n" +
+                    "~ Respeitar as manifestações culturais de outros povos\n" +
+                    "~ Estimular o interesse na resolução de situações-problema\n"
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -194,12 +213,13 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "Geografia",
 
                     AtribuicoesResponsabilidades = "",
 
                     ValoresAtitudes = ""
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -214,12 +234,16 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "Matemática",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Implementar algoritmos em linguagem de programação" +
+                    ", utlizando ambientes de desenvolvimento de acordo com as necessidades",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Socializar os saberes \n ~ Estimular o interesse na resolução" +
+                    "de situações-problema\n ~ Responsabilizar-se pela produção, utilização e " +
+                    "divulgação de informações"
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -234,12 +258,15 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "Biologia",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Desenvolver o conhecimento cíentifico, ou seja, a capacidade de compreender " +
+                    "e interpretar o mundo, mas também de transformá-lo",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Estimular o interesse pela realidade que nos cerca\n" +
+                    "~ Responsabilizar-se pela produção, utilização e divulgação de informações"
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -254,12 +281,16 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "Química",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Pesquisar as interações e transformações químicas na natureza dos processos" +
+                    "de produção e nas tecnologias",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Estimular o interesse pela realidade que nos cerca\n" +
+                    "~ Estimular o interesse na resolução de situações-problema\n" +
+                    "~ Promover ações que considerem o respeito às normas estabelecidas"
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -274,12 +305,16 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "História",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Pesquisar sobre a influência das tecnologias nos" +
+                    "processos sociais e de produção",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Incentivar comportamentos éticos\n" +
+                    "~ Respeitar as manifestações culturais de outros povos\n" +
+                    "~ Responsabilizar-se pela produção, utilização e divulgação de informações"
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -294,12 +329,16 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "Física",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Pesquisar as interações e transformações físicas" +
+                    "na natureza dos processos de produção e nas tecnologias",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Estimular o interesse na resolução de situações-problema\n" +
+                    "~ Promover ações que considerem o respeito às normas estabelecidas\n" +
+                    "~ Responsabilizar-se pela produção, utilização e divulgação de informações"
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -314,12 +353,13 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "Filosofia",
 
                     AtribuicoesResponsabilidades = "",
 
                     ValoresAtitudes = ""
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -334,12 +374,13 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "Sociologia",
 
                     AtribuicoesResponsabilidades = "",
 
                     ValoresAtitudes = ""
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -354,12 +395,16 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "Artes",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Pesquisar sobre a influência das novas tecnologias" +
+                    "nas produções artísticas e culturais",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Incentivar a criatividade\n" +
+                    " ~ Respeitar as manifestações culturais de outors povos\n" +
+                    "~ Estimular o interesse na resolução de situações-problema"                    
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)
@@ -374,12 +419,15 @@ namespace Xamarin_MenuHamburguer.Views
             {
                 var c = new componente
                 {
-                    Nome = "",
+                    Nome = "Educação Física",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Utilizar técnicas e práticas de atividade física" +
+                    "nos contextos de trabalho",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Incentivar atitudes de autonomia\n" +
+                    "~ Incentivar ações que promovam a cooperação"
                 };
+                await Navigation.PushAsync(new VerComponente(c));
 
             }
             catch (Exception ex)

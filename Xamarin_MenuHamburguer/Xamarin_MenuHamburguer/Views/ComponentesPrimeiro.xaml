@@ -13,7 +13,7 @@
                 <Button Text="Programação Web I" Clicked="web_clicked" Style="{StaticResource botaoCinza}"/>
                 <Button Text="Fundamentos da Informática" Clicked="fundamentos_clicked" Style="{StaticResource botaoCinza}"/>
                 <Button Text="Técnicas de Programação e Algoritmo" Clicked="tecnicas_clicked" Style="{StaticResource botaoCinza}"/>
-                <Button Text="Português" Clicked="port_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Português" Clicked="Port_clicked" Style="{StaticResource botaoCinza}"/>
                 <Button Text="Inglês" Clicked="ingles_clicked" Style="{StaticResource botaoCinza}"/>
                 <Button Text="Geografia" Clicked="geo_clicked" Style="{StaticResource botaoCinza}"/>
                 <Button Text="Matemática" Clicked="mat_clicked" Style="{StaticResource botaoCinza}"/>
