@@ -7,8 +7,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="10">
-                <Label Text="Olá! Este App é para guia-lo pelo ETIM (Ensino Técnico Integrado
-                       ao Médio) Desenvolvimento de Sistemas"                
+                <Label Text="Olá! Este App é para guia-lo pelo ETIM (Ensino Técnico Integrado ao Médio) Desenvolvimento de Sistemas"                
                        FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
                 <Label/>
                 <Label Text="O ETIM possui três anos como um ensino médio comum mas junto das aulas comuns temos aulas do curso"

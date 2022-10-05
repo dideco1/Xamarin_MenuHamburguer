@@ -22,6 +22,12 @@
                     <Button Text="Terceiro Ano" Clicked="open_terceiro" Style="{StaticResource botaoCinza}"/>
                     <Button Text="Vestibulinho" Clicked="open_vestibulinho" Style="{StaticResource botaoVermelho}"/>
                     <Button Text="Contato" Clicked="open_contato" Style="{StaticResource botaoVermelho}"/>
+                    <Label/>
+                    <Label/>
+                    <Label/>
+                    <Label/>
+                    <Label/>
+                    <Button Text="Sair" Clicked="sair_clicked" Style="{StaticResource botaoCinza}"/>
                 </StackLayout>
             </Grid>
         </ContentPage>

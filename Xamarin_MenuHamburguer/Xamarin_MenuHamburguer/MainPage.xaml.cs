@@ -102,5 +102,21 @@ namespace Xamarin_MenuHamburguer
             }
 
         }
+        private async void sair_clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                bool confirmacao = await DisplayAlert("Tem certeza?", "Sair do App?", "Sim", "Não");
+                if (confirmacao)
+                {
+                    App.Current.Properties.Remove("usuario_logado");
+                    App.Current.MainPage = new login();
+                }
+            }
+            catch
+            {
+
+            }
+        }
     }
 }
