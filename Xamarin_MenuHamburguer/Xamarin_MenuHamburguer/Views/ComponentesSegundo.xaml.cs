@@ -115,7 +115,7 @@ namespace Xamarin_MenuHamburguer.Views
                 {
                     Nome = "Sistemas Embarcados",
 
-                    AtribuicoesResponsabilidades = "Projetar sistemas físicos com, principalmente, arduino",
+                    AtribuicoesResponsabilidades = "Desenvolver sistemas embarcados",
 
                     ValoresAtitudes = "~ Incentivar a criatividade\n ~ Estimular a organização\n ~ Responsabilizar-se pela produção," +
                     "utilização e divulgação de informações"
