@@ -20,7 +20,7 @@
                     <Button Text="Segundo Ano" Clicked="open_segundo" Style="{StaticResource botaoCinza}"/>
                     <Button Text="Terceiro Ano" Clicked="open_terceiro" Style="{StaticResource botaoCinza}"/>
                     <Button Text="Vestibulinho" Clicked="open_vestibulinho" Style="{StaticResource botaoVermelho}"/>
-                    <Button Text="Contato Ano" Clicked="open_contato" Style="{StaticResource botaoVermelho}"/>
+                    <Button Text="Contato" Clicked="open_contato" Style="{StaticResource botaoVermelho}"/>
                 </StackLayout>
             </Grid>
         </ContentPage>

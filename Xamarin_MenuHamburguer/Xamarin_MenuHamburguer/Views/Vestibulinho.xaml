@@ -8,7 +8,7 @@
                    HorizontalTextAlignment="Center"
                    FontAttributes="Bold" Margin="10" FontSize="Title"/>
             <Button Text="Inscreva-se pelo site: www.vestibulinhoetec.com.br"
-                    Style="{StaticResource botaoVermelho}" Clicked="Button_Clicked"
+                    Style="{StaticResource botaoVermelho}" Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

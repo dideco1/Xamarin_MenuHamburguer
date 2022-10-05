@@ -101,7 +101,7 @@ namespace Xamarin_MenuHamburguer.Views
                 await DisplayAlert("Ops!", ex.Message, "OK");
             }
         }
-        private async void teste_clicked(object sender, EventArgs e)
+        private async void testesoft_clicked(object sender, EventArgs e)
         {
             try
             {
