@@ -25,7 +25,7 @@ namespace Xamarin_MenuHamburguer.Views
                 {
                     Nome = "Banco de Dados II",
 
-                    AtribuicoesResponsabilidades = "Modelar banco de dados",
+                    AtribuicoesResponsabilidades = "Implementar banco de dados",
 
                     ValoresAtitudes = "~ Promover ações que considerem o respeito às normas estabelecidas\n" +
                     "~ Estimular a organização\n" +
@@ -71,9 +71,10 @@ namespace Xamarin_MenuHamburguer.Views
                 {
                     Nome = "Programação de Aplicativos Mobile I",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Elaborar projetos de aplicativos para plataformas móveis",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Incentivar a criatividade\n ~ Estimular a organização\n ~ Responsabilizar-se pela produção," +
+                    "utilização e divulgação de informações"
                 };
                 await Navigation.PushAsync(new VerComponente(c));
 
@@ -92,9 +93,10 @@ namespace Xamarin_MenuHamburguer.Views
                 {
                     Nome = "Programação Web II",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Planejar projetos de sistemas de informação para a Web",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Incentivar a criatividade\n ~ Estimular a organização\n ~ Responsabilizar-se pela produção," +
+                    "utilização e divulgação de informações"
                 };
                 await Navigation.PushAsync(new VerComponente(c));
 
