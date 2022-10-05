@@ -14,7 +14,7 @@ namespace Xamarin_MenuHamburguer
     {
         public Inicial()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
     }
 }

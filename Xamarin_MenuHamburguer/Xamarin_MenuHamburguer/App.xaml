@@ -15,6 +15,11 @@
                 <Setter Property="TextColor" Value="#FFFFFF"/>
                 <Setter Property="CornerRadius" Value="5"/>
             </Style>
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#F3F2F0" />
+                <Setter Property="BarTextColor" Value="black" />
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

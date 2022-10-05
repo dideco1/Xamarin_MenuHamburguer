@@ -18,7 +18,6 @@ namespace Xamarin_MenuHamburguer
             else
                 MainPage = new login();
         }
-
         protected override void OnStart()
         {
         }
