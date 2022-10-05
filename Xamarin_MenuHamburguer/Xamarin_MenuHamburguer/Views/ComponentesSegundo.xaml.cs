@@ -115,9 +115,10 @@ namespace Xamarin_MenuHamburguer.Views
                 {
                     Nome = "Sistemas Embarcados",
 
-                    AtribuicoesResponsabilidades = "",
+                    AtribuicoesResponsabilidades = "Projetar sistemas físicos com, principalmente, arduino",
 
-                    ValoresAtitudes = ""
+                    ValoresAtitudes = "~ Incentivar a criatividade\n ~ Estimular a organização\n ~ Responsabilizar-se pela produção," +
+                    "utilização e divulgação de informações"
                 };
                 await Navigation.PushAsync(new VerComponente(c));
 
@@ -357,31 +358,7 @@ namespace Xamarin_MenuHamburguer.Views
                 await DisplayAlert("Ops!", ex.Message, "OK");
             }
 
-        }
-        private async void artes_clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                var c = new componente
-                {
-                    Nome = "Artes",
-
-                    AtribuicoesResponsabilidades = "Pesquisar sobre a influência das novas tecnologias" +
-                    "nas produções artísticas e culturais",
-
-                    ValoresAtitudes = "~ Incentivar a criatividade\n" +
-                    " ~ Respeitar as manifestações culturais de outors povos\n" +
-                    "~ Estimular o interesse na resolução de situações-problema"
-                };
-                await Navigation.PushAsync(new VerComponente(c));
-
-            }
-            catch (Exception ex)
-            {
-                await DisplayAlert("Ops!", ex.Message, "OK");
-            }
-
-        }
+        }        
         private async void educacao_clicked(object sender, EventArgs e)
         {
             try

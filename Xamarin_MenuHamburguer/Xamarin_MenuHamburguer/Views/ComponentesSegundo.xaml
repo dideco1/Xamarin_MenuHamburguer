@@ -21,7 +21,6 @@
                 <Button Text="Física" Clicked="fisica_clicked" Style="{StaticResource botaoVermelho}"/>
                 <Button Text="Filosofia" Clicked="filoso_clicked" Style="{StaticResource botaoVermelho}"/>
                 <Button Text="Sociologia" Clicked="socio_clicked" Style="{StaticResource botaoVermelho}"/>
-                <Button Text="Artes" Clicked="artes_clicked" Style="{StaticResource botaoVermelho}"/>
                 <Button Text="Educação Física" Clicked="educacao_clicked" Style="{StaticResource botaoVermelho}"/>
 
             </StackLayout>
