@@ -6,18 +6,25 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin_MenuHamburguer.Views;
+using Xamarin_MenuHamburguer.Models;
 
 namespace Xamarin_MenuHamburguer
 {
     public partial class MainPage : MasterDetailPage
     {
+        App PropriedadesApp;
         public MainPage()
         {
             InitializeComponent();
+            PropriedadesApp = (App)Application.Current;
             Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
-        }           
+            lbl_boasvindas.Text = string.Format(
+                "Bem-vindo (a) {0} ",
+                App.Current.Properties["usuario_logado"].ToString()
+            );
+        }       
 
-    private async void open_inicial(object sender, EventArgs e)
+        private async void open_inicial(object sender, EventArgs e)
         {
             try
             {

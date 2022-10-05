@@ -15,6 +15,7 @@
                     <Image Source="logo_etec.jpg" Aspect="AspectFit" x:Name="logo_etec"/>
                 </StackLayout>
                 <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#F3F2F0">
+                    <Label x:Name="lbl_boasvindas"/>
                     <Button Text="Inicial" Clicked="open_inicial" Style="{StaticResource botaoVermelho}"/>
                     <Button Text="Primeiro Ano" Clicked="open_primeiro" Style="{StaticResource botaoCinza}"/>
                     <Button Text="Segundo Ano" Clicked="open_segundo" Style="{StaticResource botaoCinza}"/>

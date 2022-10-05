@@ -1,6 +1,8 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin_MenuHamburguer.Models;
+using Xamarin_MenuHamburguer.Views;
 
 namespace Xamarin_MenuHamburguer
 {
@@ -9,8 +11,12 @@ namespace Xamarin_MenuHamburguer
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            if (Properties.ContainsKey("usuario_logado"))
+            {
+                MainPage = new MainPage();
+            }
+            else
+                MainPage = new login();
         }
 
         protected override void OnStart()
