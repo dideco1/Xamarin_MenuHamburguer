@@ -16,5 +16,18 @@ namespace Xamarin_MenuHamburguer.Views
         {
             InitializeComponent();
         }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                Device.OpenUri(new Uri("https://www.vestibulinhoetec.com.br"));
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
+
+        }
     }
 }
