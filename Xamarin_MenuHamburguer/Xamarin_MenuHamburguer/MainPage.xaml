@@ -11,8 +11,8 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-                <StackLayout Grid.Row="0" Background="#F3F2F0" Padding="10" Margin="10" HorizontalOptions="FillAndExpand">
-                    <Image Source="logo_etec.jpg" Aspect="AspectFit" x:Name="logo_etec"/>
+                <StackLayout Grid.Row="0" Background="white" Padding="10" Margin="10" HorizontalOptions="FillAndExpand">
+                    <Image Source="https://cdn.mundodastribos.com/2011/01/ETEC-Jau-SP-Cursos-Enderecos.jpg" Aspect="AspectFit" HeightRequest="125"/>
                 </StackLayout>
                 <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#F3F2F0">
                     <Label x:Name="lbl_boasvindas"/>
